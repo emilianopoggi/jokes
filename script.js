@@ -1,6 +1,6 @@
 /*jslint browser: true*/
-/*global $, jQuery, alert*/
+/*global $, jQuery, alert, console*/
 $(document).ready(function () {
 	'use strict';
-	
+	$('.fill').animate({width: '100%'}, 5000);
 });
